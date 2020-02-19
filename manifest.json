@@ -1,0 +1,13 @@
+{
+ 	"name": "Loadout",
+	"short_name": "Loadout",
+	"icons": [{
+		"src": "./assets/images/logo-196x196.png",
+		"sizes": "196x196",
+		"type": "image/png"
+		}],
+	"start_url": "./index.html",
+	"display": "standalone",
+	"background_color": "#c62828",
+	"theme_color": "#b71c1c"
+}

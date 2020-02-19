@@ -1,0 +1,10 @@
+author: sonarius
+timezone: America/New_York
+theme: jekyll-theme-tactile
+host: loadout.inkstrike.net
+
+exclude:
+  - vendor
+
+plugins:
+  - jemoji
