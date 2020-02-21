@@ -1,2 +1,48 @@
 /* main.css */
 /* Core CSS file custom made for website */
+
+/*********/
+/* BASE */
+/********/
+
+/* Fonts */
+@font-face {
+  font-family: "Splat1";
+  src: url(/assets/fonts/Splatfont.woff) format("woff"),
+  url(/assets/fonts/Splatfont.ttf)
+}
+
+@font-face {
+  font-family: "Splat2";
+  src: url(/assets/fonts/Splatfont2.woff) format("woff"),
+  url(/assets/fonts/Splatfont2.ttf)
+}
+
+h1, h2, h3, h4, h5, p, a {
+  font-family: "Splat2";
+  color: white;
+}
+
+/* Body */
+body {
+  background: #222 !important;
+  background-image: url("/assets/images/ui/bg-primary.jpg") !important;
+  overflow: hidden;
+}
+
+body:not(.show-focus-outlines) button:focus,
+body:not(.show-focus-outlines) [tabindex]:focus {
+  outline: none;
+}
+
+/**************/
+/* COMPONENTS */
+/**************/
+
+/* Stripes */
+.neonstripes { background: repeating-linear-gradient( 45deg, #dbe826, #dbe826 20px, #c4d412 20px, #c4d412 40px ); }
+.redstripes { background: repeating-linear-gradient( 45deg, #d63e53, #d63e53 20px, #f0624a 20px, #f0624a 40px ); }
+.tealstripes { background: repeating-linear-gradient( 45deg, #19e1ba, #19e1ba 20px, #06be8a 20px, #06be8a 40px ); }
+.orangestripes { background: repeating-linear-gradient( 45deg, #f07807, #f07807 20px, #d25012 20px, #d25012 40px ); }
+.blackstripes { background: repeating-linear-gradient( 45deg, #222, #222 30px, #444 30px, #444 60px ); }
+.purplestripes { background: repeating-linear-gradient( 45deg, #842cd6, #842cd6 20px, #6b01bb 20px, #6b01bb 40px ); }
