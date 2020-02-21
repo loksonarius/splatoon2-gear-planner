@@ -1,7 +1,7 @@
 {
   "manifest_version": 1,
   "version": "1",
- 	"name": "Loadout - loadout.inkstrike.net",
+ 	"name": "loadout.inkstrike.net",
 	"short_name": "Loadout",
   "default_locale": "en",
 	"icons": [{
