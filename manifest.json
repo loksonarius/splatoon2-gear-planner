@@ -1,13 +1,17 @@
 {
- 	"name": "Loadout",
+  "manifest_version": 1,
+  "version": "1",
+ 	"name": "Loadout - loadout.inkstrike.net",
 	"short_name": "Loadout",
+  "default_locale": "en",
 	"icons": [{
-		"src": "./assets/images/logo-196x196.png",
+		"src": "./assets/images/misc/favicon.png",
 		"sizes": "196x196",
 		"type": "image/png"
 		}],
-	"start_url": "./index.html",
-	"display": "standalone",
-	"background_color": "#c62828",
-	"theme_color": "#b71c1c"
+	"start_url": "/",
+  "display": "standalone",
+  "background_color": "#282828",
+  "theme_color": "#51BB10",
+  "orientation": "any"
 }
