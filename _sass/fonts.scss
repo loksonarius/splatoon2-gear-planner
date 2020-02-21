@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Splat1";
+  src: url(/assets/fonts/Splatfont.woff) format("woff"),
+  url(/assets/fonts/Splatfont.ttf)
+}
+
+@font-face {
+  font-family: "Splat2";
+  src: url(/assets/fonts/Splatfont2.woff) format("woff"),
+  url(/assets/fonts/Splatfont2.ttf)
+}
+
+h1, h2, h3, h4, h5, p, a, button {
+  font-family: "Splat2";
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #c4c3c1;
+}

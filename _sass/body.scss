@@ -1,0 +1,10 @@
+body {
+  background: #222 !important;
+  background-image: url("/assets/images/ui/bg-primary.jpg") !important;
+  overflow: hidden;
+}
+
+body:not(.show-focus-outlines) button:focus,
+body:not(.show-focus-outlines) [tabindex]:focus {
+  outline: none;
+}
